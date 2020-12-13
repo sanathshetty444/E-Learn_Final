@@ -1,0 +1,43 @@
+.home-svg{
+    
+    height: 343px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 172%;
+    transform: rotateY(180deg);
+    transform: rotate(0deg)rotate(0deg)translateX(-288px)translateY(241px)scaleY(2);
+}
+    
+body{
+    overflow-x: hidden;
+}
+#home-main{
+    
+    height: 70vh;
+    width: 100vw;
+    background: url('./undraw_in_progress_ql66.svg');
+    background-size: 700px 400px;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+.home-tabs{
+    position: absolute;
+    width: 40%;
+    height: 40vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    top: 200px;
+}
+.home-tabs:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+  }
+.react-chatbot-kit-chat-bot-message{
+    background-color: #007fff;
+}
+

@@ -1,0 +1,60 @@
+.outerContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80vh;
+  width: 90vw;
+  background-color: transparent;
+  overflow: hidden;
+  
+}
+
+.container-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 8px;
+  height: 80%;
+  width: 25%;
+  padding-bottom: 10px;
+  border: 1px solid lightgray;
+}
+.container-chat:hover{
+  box-shadow: 5px 5px 32px 3px rgba(0,0,0,0.52);
+  transform: translate3d(0px, -1px, 0px);
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .outerContainer {
+    height: 100%;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}
+
+.chat-main{
+  background: url('./undraw_hang_out_h9ud.svg');
+  background-size: 600px 450px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.chat-svg{
+  height: 374px;
+    width: 1524px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    transform: translateX(101px)rotateY(180deg)translateY(-123px);
+
+}
